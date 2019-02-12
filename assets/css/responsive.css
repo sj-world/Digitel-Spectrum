@@ -1,0 +1,838 @@
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .widget-area.latest-post .single-latest-post .media .media-body h5 {
+        font-size: 14px;
+    }
+    .widget-area.latest-post .single-latest-post .media .media-body .meta-time {
+        font-size: 12px;
+    }
+    .widget-area.instagram .instagram-feed li:last-child {
+        margin-top: 10px;
+    }
+    .widget-area.social .social-links li {
+        margin: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link .subtitle {
+        display: none;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn {
+        width: 180px;
+    }
+    .header-area .single-header-item .title {
+        font-size: 55px;
+    }
+    .quickest-service-area .right-content-area {
+        padding-top: 0px;
+    }
+    .quickest-service-area .right-content-area .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .quickest-service-area .right-content-area .title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .quickest-service-bottom .single-quickest-bottom-founder-box .subtitle {
+        font-size: 10px;
+    }
+    .quickest-service-bottom .single-quickest-bottom-founder-box .title {
+        font-size: 16px;
+    }
+    #hardware-masonary-gallery {
+        margin-left: 10%;
+    }
+    .faq-area .title,
+    .testimonial-area .title {
+        font-size: 31px;
+    }
+    .faq-area .faq-area-inner .card .card-header a {
+        font-size: 12px;
+    }
+    .faq-area .faq-area-inner .card .card-body {
+        font-size: 12px;
+    }
+    .testimonial-area .testimonial-carousel .single-testimonial-item .description p {
+        font-size: 12px;
+    }
+    .investor-relationship-area .right-content-area .img-wrapper img:first-child {
+        position: absolute;
+        left: 0;
+    }
+    .single-inovation-area .right-content-area {
+        padding-left: 20px;
+    }
+    .photo-gallery-contenta-area .photo-gallery-manu-wrppaer ul li {
+        font-size: 12px;
+    }
+    #photo-gallery-masony-wrapper {
+        margin-left: 11%;
+    }
+    .pricing-plan-page-content .sinlge-pricing-plan-page-plan .header .name {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .contact-page-content-area .single-contact-info-box .content .details {
+        font-size: 16px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #F6F5F5;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #F6F5F5;
+        color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .support-bar-area .logo {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .support-bar-area .support-bar-content {
+        text-align: center;
+    }
+    .header-area .single-header-item .title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .quickest-service-bottom .single-quickest-bottom-box {
+        margin-bottom: 30px;
+    }
+    .quickest-service-bottom {
+        padding-bottom: 100px;
+    }
+    .hardware-masonary-gallery .single-hardware-item {
+        width: 46%;
+    }
+    #hardware-masonary-gallery {
+        margin-left: 4%;
+    }
+    .pricing-area-start .pricing-table-content .tab-content .monthly-tab-content .single-pricing-plan.active .footer .boxed-btn,
+    .pricing-area-start .pricing-table-content .tab-content .monthly-tab-content .single-pricing-plan .footer .boxed-btn {
+        width: 170px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .testimonial-area {
+        margin-bottom: 60px;
+    }
+    .testimonial-area .testimonial-carousel .single-testimonial-item .description:after {
+        left: 180px;
+    }
+    .margin-bottom-30-mobile {
+        margin-bottom: 30px;
+    }
+    .investor-relationship-area .right-content-area .img-wrapper img:last-child {
+        margin-top: 90px;
+    }
+    .investor-relationship-area .right-content-area {
+        text-align: left;
+    }
+    .single-inovation-area .bg-text {
+        left: 12%;
+        font-size: 130px;
+    }
+    .single-inovation-area .img-wrapper {
+        margin-bottom: 40px;
+    }
+    .single-inovation-area.second-item .right-content-area .img-wrapper {
+        margin-top: 40px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link .subtitle {
+        display: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.active:before {
+        display: none;
+    }
+    .navbar-area .navbar-collapse {
+        padding-left: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:first-child {
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+    .dropdown-toggle::after {
+        right: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .service-page-timeline .single-timeline-item-left .content p,
+    .service-page-timeline .single-timeline-item-right .content p {
+        padding: 0 3px;
+    }
+    .photo-gallery-contenta-area .photo-gallery-manu-wrppaer ul {
+        border: none;
+    }
+    .photo-gallery-contenta-area .photo-gallery-masony-wrapper .photo-gallery-masony-inner .single-photo-gallery-item {
+        width: 46%;
+    }
+    .sidebar {
+        margin-top: 60px;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content {
+        padding-top: 10px;
+    }
+    .team-page-content {
+        padding-bottom: 120px;
+    }
+    .contact-page-content-area .single-contact-info-box {
+        margin-bottom: 60px;
+    }
+    .contact-page-content-area {
+        padding-bottom: 180px;
+    }
+    .blog-details-content {
+        padding-bottom: 88px;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn{
+        border-radius: 5px;
+    }
+}
+
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .support-bar-area .logo {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .support-bar-area .support-bar-content {
+        display: block;
+        text-align: center;
+    }
+    .support-bar-area .support-bar-content ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content .subtitle {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .support-bar-area .support-bar-content .single-support-item .content {
+        padding-left: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #F6F5F5;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #F6F5F5;
+        color: #fff;
+    }
+    .contact-page-content-area .single-contact-info-box {
+        margin-bottom: 60px;
+    }
+    .contact-page-content-area {
+        padding-bottom: 180px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link .subtitle {
+        display: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+    .navbar-area .navbar-collapse {
+        padding-left: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:first-child a {
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 20px !important;
+    }
+    .dropdown-toggle::after {
+        right: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: none;
+        padding-left: 20px;
+    }
+    .header-area .single-header-item .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .quickest-service-bottom .single-quickest-bottom-box {
+        margin-bottom: 40px;
+    }
+    .quickest-service-bottom {
+        padding-bottom: 100px;
+    }
+    .hardware-masonary-gallery .single-hardware-item,
+    .hardware-masonary-gallery .single-hardware-item img {
+        width: 100%;
+    }
+    .pricing-area-start .pricing-table-content .tab-content .monthly-tab-content .single-pricing-plan,
+    .pricing-area-start .pricing-table-content .tab-content .yearly-tab-content .single-pricing-plan {
+        max-width: 350px;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    .pricing-area-start .pricing-table-content .tab-content .monthly-tab-content .single-pricing-plan.active,
+    .pricing-area-start .pricing-table-content .tab-content .yearly-tab-content .single-pricing-plan.active {
+        max-width: 350px;
+        margin: 0 auto;
+        position: initial;
+        margin-bottom: 30px;
+    }
+    .pricing-area-start {
+        padding-bottom: 100px;
+    }
+    .testimonial-area {
+        padding: 0;
+        border: none;
+    }
+    .testimonial-area .testimonial-carousel .single-testimonial-item .description:after {
+        left: 150px;
+    }
+    .faq-area {
+        padding: 0;
+        border: none;
+        margin-top: 60px;
+    }
+    .margin-bottom-30-mobile {
+        margin-bottom: 30px;
+    }
+    .investor-relationship-area .right-content-area .img-wrapper img:first-child {
+        position: absolute;
+        left: 0;
+    }
+    .investor-relationship-area {
+        padding-bottom: 210px;
+    }
+    .single-inovation-area .bg-text {
+        left: 13%;
+        font-size: 100px;
+    }
+    .single-inovation-area .img-wrapper {
+        margin-bottom: 40px;
+    }
+    .single-inovation-area .invovation-content-area .title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .single-inovation-area .invovation-content-area .subtitle {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .single-inovation-area.second-item .img-wrapper {
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    .service-page-timeline .service-page-timeline-inne:before,
+    .service-page-timeline .service-page-timeline-inne:after {
+        display: none;
+    }
+    .service-page-timeline .single-timeline-item-left:after,
+    .service-page-timeline .single-timeline-item-left:before {
+        display: none;
+    }
+    .service-page-timeline .single-timeline-item-right {
+        margin-top: 0;
+    }
+    .service-page-timeline {
+        padding-bottom: 0;
+    }
+    .photo-gallery-contenta-area .photo-gallery-manu-wrppaer ul {
+        border: none;
+    }
+    .photo-gallery-contenta-area .photo-gallery-masony-wrapper .photo-gallery-masony-inner .single-photo-gallery-item,
+    .photo-gallery-contenta-area .photo-gallery-masony-wrapper .photo-gallery-masony-inner .single-photo-gallery-item img {
+        width: 100%;
+    }
+    .pricing-plan-page-content .sinlge-pricing-plan-page-plan {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .pricing-plan-page-content {
+        padding-bottom: 90px;
+    }
+    .blog-page-inner .single-blog-post .content .post-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sidebar {
+        margin-top: 60px;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        line-height: 35px;
+        font-size: 25px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .top-content .right-content .title {
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content .title {
+        display: block;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content {
+        float: none;
+        margin-top: 30px;
+    }
+    .team-page-content {
+        padding-bottom: 120px;
+    }
+    .blog-details-content {
+        padding-bottom: 88px;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn{
+        border-radius: 5px;
+    }
+    .service-page-timeline .single-timeline-item-right.margin-bottom-0 {
+        margin-bottom: 100px !important;
+    }
+    .margin--top--200{
+        margin-top: 0;
+    }
+    .about-page-content {
+        padding-bottom: 90px;
+    }
+    .service-page-timeline .single-timeline-item-right:before,
+    .service-page-timeline .single-timeline-item-right:after{
+        display: none;
+    }
+    .single-inovation-area.second-item .bg-text {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .invovation-content-area {
+        text-align: center;
+    }
+    .single-inovation-area .invovation-content-area p{
+        padding-right: 0;
+    }
+    .single-inovation-area.second-item .img-wrapper.res-margin {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .service-page-timeline .single-timeline-item-left,
+    .service-page-timeline .single-timeline-item-right {
+        margin-bottom: 40px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        padding-left: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+    .widget-area.social .social-links li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .widget-area.social .social-links li {
+        margin: 0;
+    }
+    .widget-area {
+        padding: 0;
+    }
+    .support-bar-content {
+        display: none !important;
+    }
+    .header-bottom-area.services-page .headder-bottom-area-wrapper .single-header-bottom-box {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .single-inovation-area .img-wrapper .inovation-area-img {
+        width: 100%;
+    }
+    .contact-bottom-inner .right-content-area {
+        padding-right: 30px;
+    }
+    
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .customaer-love-call-to-action-area {
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+    }
+    .topbar-bar .topbar-inner .topbar-left-content {
+        text-align: center;
+        display: block;
+    }
+    .topbar-bar .topbar-inner .topbar-right-content {
+        float: none;
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .header-area .single-header-item .title {
+        font-size: 40px;
+    }
+    .header-area .single-header-item .btn-wrapper .boxed-btn {
+        margin-bottom: 20px;
+    }
+    .header-area {
+        padding-bottom: 220px;
+    }
+    .support-bar-area .logo {
+        margin-bottom: 10px;
+    }
+    .quickest-service-area .right-content-area .subtitle {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .quickest-service-area .right-content-area .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .quickest-service-bottom {
+        padding-bottom: 120px;
+    }
+    .testimonial-area .testimonial-carousel .single-testimonial-item .description:after {
+        left: 90px;
+    }
+    .faq-area .faq-area-inner .card .card-header a {
+        padding-right: 61px;
+    }
+    .team-area-bottom {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .investor-relationship-area .right-content-area .img-wrapper img:first-child {
+        position: initial;
+        width: 100%;
+    }
+    .investor-relationship-area {
+        padding-bottom: 180px;
+    }
+    .investor-relationship-area .right-content-area .img-wrapper img:last-child {
+        margin-left: 0;
+        width: 100%;
+    }
+    .single-inovation-area.second-item .bg-text,
+    .single-inovation-area .bg-text {
+        display: none;
+    }
+    .single-inovation-area .img-wrapper .inovation-area-img {
+        width: 100%;
+    }
+    .submit-btn {
+        width: 100%;
+    }
+    .about-page-content .right-content-area .right-content-bottom .video-thumb .video-thumb-inner img {
+        width: 100%;
+    }
+    .about-page-content .right-content-area .right-content-bottom .video-thumb {
+        position: initial;
+        width: 100%;
+    }
+    .about-page-content .right-content-area {
+        padding-left: 0;
+    }
+    .about-page-content .right-content-area .right-content-bottom .content {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .photo-gallery-contenta-area .photo-gallery-manu-wrppaer ul li {
+        font-size: 14px;
+    }
+    .breadcrumb-area {
+        padding: 100px 0;
+    }
+    .blog-page-inner .single-blog-post .content .post-content .post-meta li {
+        margin: 0 10px;
+    }
+    .blog-page-inner .single-blog-post .content .post-content {
+        padding-left: 0;
+    }
+    .blog-page-inner .single-blog-post .content .meta-date {
+        position: initial;
+        margin-bottom: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container {
+        padding-left: 0;
+    }
+    .blog-details-content .single-blog-post .meta-time {
+        position: initial;
+        margin-bottom: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container .meta-tags ul li {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li:first-child {
+        margin-left: 10px;
+    }
+    .investor-relationship-area {
+        padding-bottom: 140px;
+    }
+    .brand-carousel-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .service-page-timeline .single-timeline-item-right.margin-bottom-0 {
+        margin-bottom: 100px !important;
+    }
+    .about-page-content {
+        padding-bottom: 100px;
+    }
+    .blog-details-content {
+        padding-bottom: 78px;
+    }
+    .about-page-content .left-content-area .img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .blog-page-inner{
+        padding-bottom: 80px;
+    }
+    
+}
+
+
+/* mobile tablet layout 384px */
+
+@media only screen and (max-width: 384px) {
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote {
+        padding-right: 20px;
+    }
+    .comment-form-wrapper .form-element .submit-btn {
+        width: 100%;
+    }
+    .widget-area.instagram .instagram-feed li:last-child {
+        margin-top: 10px;
+    }
+    .blog-details-content {
+        padding: 60px 20px;
+    }
+    .blog-details-content .comments-area .single-comment-item .thumb {
+        position: initial;
+    }
+    .blog-details-content .comments-area .single-comment-item .content {
+        padding-left: 0;
+    }
+    .blog-page-inner {
+        padding-bottom: 90px;
+    }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .header-area .single-header-item .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .quickest-service-area .right-content-area .title {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .quickest-service-area .right-content-area .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .investor-relationship-area {
+        padding-bottom: 140px;
+    }
+    .footer-area .footer-top .social-share-icons ul li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .blog-page-inner {
+        padding-bottom: 60px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .icon {
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .content {
+        padding-left: 0;
+    }
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+    .contact-bottom-inner .submit-btn {
+        width: 100%;
+    }
+    .news-feed-area .single-new-feed-items .content .title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .breadcrumb-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .breadcrumb-area .page-links {
+        font-size: 14px;
+    }
+    .contact-bottom-inner .right-content-area .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single-inovation-area .invovation-content-area .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .single-inovation-area .invovation-content-area .title {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .pricing-plan-page-content .sinlge-pricing-plan-page-plan .header .name {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .service-page-timeline .single-timeline-item-right .content p,
+    .service-page-timeline .single-timeline-item-left .content p {
+        padding: 0;
+    }
+    .about-page-content .right-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .about-page-content .right-content-area .subtitle {
+        font-size: 14px;
+    }
+    .header-area .single-header-item .title {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .quickest-service-area .right-content-area .title {
+        font-size: 33px;
+        line-height: 43px;
+    }
+    .quickest-service-area .right-content-area .subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .pricing-area-start .pricing-table-nav .nav-tabs .nav-item {
+        display: block;
+        width: 100%;
+    }
+    .pricing-area-start .pricing-table-nav .nav-tabs {
+        display: block;
+    }
+    .pricing-area-start .pricing-table-nav .nav-tabs .nav-item .nav-link {
+        display: block;
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+    .pricing-area-start .pricing-table-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testimonial-area .testimonial-carousel .single-testimonial-item .description:after {
+        left: 45px;
+    }
+    .investor-relationship-area .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .investor-relationship-area {
+        padding-bottom: 120px;
+    }
+    .about-page-content {
+        padding-bottom: 100px;
+    }
+    .header-bottom-area .headder-bottom-area-wrapper .single-header-bottom-box {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
