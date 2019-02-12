@@ -5,22 +5,51 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Train effect styling */
+
+
+.cursor {
+  position: relative;
+  /* display: inline-block; */
+  left: -0.8vw;
+  color: white;
+}
+
+.train_effect {
+  font: normal normal 700 normal 36.04px / 39.0433px Merriweather,
+    serif;
+  /* border: 1px solid white; */
+  color: white;
+  font-weight: bold;
+  width: 60%;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 auto;
+  font-size: 2.6vw;
+}
+
+
+
+
+
+/* Train effect styling end */
+
 .goToTop {
   position: absolute;
   right: 0;
   top: 0;
   color: rgba(211, 211, 211, 0.842);
   text-decoration: underline;
-  transition: 0.4s all ease-in-out ;
-  -webkit-transition: 0.4s all ease-in-out ;
-  -moz-transition: 0.4s all ease-in-out ;
-  -ms-transition: 0.4s all ease-in-out ;
-  -o-transition: 0.4s all ease-in-out ;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  -moz-transition: 0.4s all ease-in-out;
+  -ms-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
 }
 
 .goToTop:hover {
   color: rgba(255, 255, 255, 0.911);
-  
+
 }
 
 .header-text-animation {
@@ -36,7 +65,7 @@ html {
     -moz-transform: translateY(-90px);
     -ms-transform: translateY(-90px);
     -o-transform: translateY(-90px);
-}
+  }
 
   100% {
     transform: translateY(0px);
@@ -45,12 +74,12 @@ html {
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
+  }
 }
-}
 
 
 
-.header-text-wrapper > h1 {
+.header-text-wrapper>h1 {
   /* border: 1px solid black; */
   margin-bottom: 0px !important;
 }
@@ -74,7 +103,8 @@ html {
 
 .text-effect-container h1 {
   /*border: 1px solid green;
-  */color: white;
+  */
+  color: white;
   text-align: left;
   border-right: 2px solid white;
   overflow: hidden;
@@ -83,7 +113,7 @@ html {
   font-size: 2.6vw;
   animation: typing-effect 10s steps(57) infinite alternate, blink 0.5s infinite;
   -webkit-animation: typing-effect 10s steps(57) infinite alternate, blink 0.5s infinite;
-  
+
 }
 
 @keyframes typing-effect {
@@ -870,7 +900,7 @@ ul {
   background-color: #f6f5f5;
   padding: 0;
   /*border-bottom: 1px solid blue;*/
-  
+
 }
 
 .navbar-area.nav-fixed {
@@ -3459,3 +3489,20 @@ Footer area
 .team-page-content .single-team-member .author-details .social-links li a:hover {
   color: #0054ff;
 }
+
+/* media screen */
+
+@media screen and (max-width: 1200px) {
+  .link-box {
+    background-color: black;
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .link-box {
+    background-color: black;
+    margin-left: 14.5%;
+  }
+}
+
