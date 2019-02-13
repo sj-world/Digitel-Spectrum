@@ -133,11 +133,11 @@ function cursorAnimation() {
         /*----------------------------
             back to top
         ----------------------------*/
-        $(document).on('click', '.back-to-top', function() {
-            $("html,body").animate({
-                scrollTop: 0
-            }, 2000);
-        });
+        // $(document).on('click', '.back-to-top', function() {
+        //     $("html,body").animate({
+        //         scrollTop: 0
+        //     }, 2000);
+        // });
         var $datepicker = $('.datepicker');
         if ($datepicker.length > 0) {
             $datepicker.datepicker();
@@ -288,3 +288,27 @@ function cursorAnimation() {
     });
 
 }(jQuery));
+
+
+// sticky header
+
+// window.onscroll = function () { myFunction() };
+
+// var header = document.getElementById("myHeader");
+// var sticky = header.offsetTop;
+// var mainHeading = document.getElementById('main-heading');
+
+
+function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        // console.log(mainHeading);
+        // mainHeading.style.border = "5px solid white";
+        // mainHeading.style.marginTop = "141px";
+    } else {
+        header.classList.remove("sticky");
+        // mainHeading.style.border = "2px solid white";
+        // mainHeading.style.margin = "0px";
+
+    }
+}
