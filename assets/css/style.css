@@ -3556,3 +3556,16 @@ Footer area
     margin-left: 7%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #main-heading {
+    /* border: 1px solid white; */
+    font-size: 6vw;
+  }
+
+  .train_effect {
+    /* border: 1px solid white; */
+    font-size: 4.5vw;
+    width: 90%;
+  }
+}
