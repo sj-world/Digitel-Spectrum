@@ -3580,3 +3580,31 @@ Footer area
     height: 115px;
   }
 }
+
+@media screen and (max-width: 1199px) and (min-width: 502px) {
+  .navbar-nav {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* float: right !important; */
+  }
+
+  
+  .nav-link {
+    font-size: 14px !important;
+    /* border: 1px solid rgb(1, 2, 1); */
+  }
+
+  .logoWrapper {
+    /* border: 1px solid red; */
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 502px) {
+  .logoWrapper {
+    /* border: 1px solid blue; */
+    width: 50%;
+  }
+}
