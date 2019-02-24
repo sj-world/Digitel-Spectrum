@@ -1074,7 +1074,7 @@ ul {
   bottom: -18px;
   width: 100%;
   height: 2px;
-  background-color: darkblue;
+  /* background-color: darkblue; */
   content: '';
   visibility: hidden;
   opacity: 0;
