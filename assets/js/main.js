@@ -6,6 +6,8 @@ $(document).ready(function () {
 
 
 
+
+
 var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -312,3 +314,32 @@ function myFunction() {
 
     }
 }
+
+// Read more and Read less functionality
+
+$("#Solution-Read-Btn1").click(function () {
+    $(".content1").slideToggle("fast");
+    var $this = $(this);
+    $this.toggleClass("open");
+
+    if ($this.hasClass("open")) {
+        $this.html("Read Less");
+    } else {
+        $this.html("Read more");
+    }
+});
+
+$("#Solution-Read-Btn2").click(function () {
+    $(".content2").slideToggle("fast");
+    var $this = $(this);
+    $this.toggleClass("open");
+
+    if ($this.hasClass("open")) {
+        $this.html("Read Less");
+    } else {
+        $this.html("Read more");
+    }
+});
+
+
+
