@@ -322,11 +322,11 @@ $("#Solution-Read-Btn1").click(function () {
     var $this = $(this);
     $this.toggleClass("open");
 
-    if ($this.hasClass("open")) {
-        $this.html("Read Less");
-    } else {
-        $this.html("Read more");
-    }
+    // if ($this.hasClass("open")) {
+    //     $this.html("Read Less");
+    // } else {
+    //     $this.html("Read more");
+    // }
 });
 
 $("#Solution-Read-Btn2").click(function () {
@@ -334,12 +334,39 @@ $("#Solution-Read-Btn2").click(function () {
     var $this = $(this);
     $this.toggleClass("open");
 
-    if ($this.hasClass("open")) {
-        $this.html("Read Less");
-    } else {
-        $this.html("Read more");
-    }
+    // if ($this.hasClass("open")) {
+    //     $this.html("Read Less");
+    // } else {
+    //     $this.html("Read more");
+    // }
 });
 
 
+// TODO:  change the button style ..
+
+var btn = document.getElementById('Solution-Read-Btn1');
+var btn2 = document.getElementById('Solution-Read-Btn2');
+
+var more = document.getElementById('more');
+
+var more2 = document.getElementById('more2');
+
+
+btn.onclick = function () {
+    var txt = this.textContent;
+    if (txt == "Read More") {
+        more.innerHTML = "Read Less";
+    } else if (txt == "Read Less") {
+        more.innerHTML = "Read More";
+    }
+}
+
+btn2.onclick = function () {
+    var txt = this.textContent;
+    if (txt == "Read More") {
+        more2.innerHTML = "Read Less";
+    } else if (txt == "Read Less") {
+        more2.innerHTML = "Read More";
+    }
+}
 
