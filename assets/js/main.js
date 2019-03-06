@@ -344,29 +344,29 @@ $("#Solution-Read-Btn2").click(function () {
 
 // TODO:  change the button style ..
 
-var btn = document.getElementById('Solution-Read-Btn1');
-var btn2 = document.getElementById('Solution-Read-Btn2');
+// var btn = document.getElementById('Solution-Read-Btn1');
+// var btn2 = document.getElementById('Solution-Read-Btn2');
 
-var more = document.getElementById('more');
+// var more = document.getElementById('more');
 
-var more2 = document.getElementById('more2');
+// var more2 = document.getElementById('more2');
 
 
-btn.onclick = function () {
-    var txt = this.textContent;
-    if (txt == "Read More") {
-        more.innerHTML = "Read Less";
-    } else if (txt == "Read Less") {
-        more.innerHTML = "Read More";
-    }
-}
+// btn.onclick = function () {
+//     var txt = this.textContent;
+//     if (txt == "Read More") {
+//         more.innerHTML = "Read Less";
+//     } else if (txt == "Read Less") {
+//         more.innerHTML = "Read More";
+//     }
+// }
 
-btn2.onclick = function () {
-    var txt = this.textContent;
-    if (txt == "Read More") {
-        more2.innerHTML = "Read Less";
-    } else if (txt == "Read Less") {
-        more2.innerHTML = "Read More";
-    }
-}
+// btn2.onclick = function () {
+//     var txt = this.textContent;
+//     if (txt == "Read More") {
+//         more2.innerHTML = "Read Less";
+//     } else if (txt == "Read Less") {
+//         more2.innerHTML = "Read More";
+//     }
+// }
 
