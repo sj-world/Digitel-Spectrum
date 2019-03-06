@@ -373,7 +373,7 @@ $("#Solution-Read-Btn2").click(function () {
 
 // jsor slider js
 
-jQuery(document).ready(function ($) {
+
     var options = {
         $FillMode: 2, //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
         $AutoPlay: 1, //[Optional] Auto play or not, to enable slideshow, this option must be set to greater than 0. Default value is 0. 0: no auto play, 1: continuously, 2: stop at last slide, 4: stop on click, 8: stop on user navigation (by arrow/bullet/thumbnail/drag/arrow key navigation)
@@ -425,5 +425,5 @@ jQuery(document).ready(function ($) {
     $(window).bind("resize", ScaleSlider);
     $(window).bind("orientationchange", ScaleSlider);
     /*#endregion responsive code end*/
-});
+
 
