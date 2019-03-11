@@ -3861,3 +3861,24 @@ button {
   opacity: .3;
   pointer-events: none;
 }
+
+
+/* media query for mobile */
+
+@media screen and (max-width: 500px) {
+  #slider1_container {
+    /* border: 10px solid white; */
+    height: 190px !important;
+  }
+
+  .caseStudiesHeading {
+    /* border: 1px solid white; */
+
+  }
+
+  .caseStudiesContent {
+    /* border: 1px solid white; */
+    font-size: 25px !important;
+
+  }
+}
