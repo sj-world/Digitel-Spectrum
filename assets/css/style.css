@@ -19,6 +19,16 @@ html {
 
 }
 
+/* Our Solution margin  styling*/
+
+.content {
+  /* border: 1px solid black; */
+  margin-bottom: 15px;
+}
+
+/* Our Solution margin  styling end */
+
+
 /* Read more button styling */
 
 .styled-button {
