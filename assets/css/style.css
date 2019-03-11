@@ -3909,7 +3909,7 @@ button {
   .contactQr {
     /* border: 2px solid black; */
     float: left;
-    width: 120px !important;
+    /* width: 120px !important; */
     /* margin: 0 0 0 30% !important; */
   }
 
