@@ -3871,11 +3871,6 @@ button {
     height: 190px !important;
   }
 
-  .caseStudiesHeading {
-    /* border: 1px solid white; */
-
-  }
-
   .caseStudiesContent {
     /* border: 1px solid white; */
     font-size: 35px !important;
@@ -3884,3 +3879,40 @@ button {
 
 }
 
+
+@media screen and (max-width: 500px) {
+  .contactLogo > img {
+    /* border: 10px solid black !important; */
+    justify-self: flex-end;
+    display: flex;
+    width: 350px !important;
+  }
+
+
+  .contactLogo > h3 {
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .contactInfo {
+  
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 1px solid black !important; */
+    margin-top: 20px;
+    
+  }
+
+  
+  .contactQr {
+    /* border: 2px solid black; */
+    float: left;
+    width: 120px !important;
+    /* margin: 0 0 0 30% !important; */
+  }
+
+
+  
+}
