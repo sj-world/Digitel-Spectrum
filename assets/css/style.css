@@ -5,16 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  /* font-family: Ubuntu, sans-serif !important; */
-  font-family: 'Muli',
-  sans-serif !important;
-  font-weight: 700 !important;
-  font-style: normal !important;
-  line-height: 1.64em !important;
-  letter-spacing: 0em !important;
-
-}
 
 .logoHeading {
   font-weight: bold;
@@ -3625,7 +3615,7 @@ Footer area
     /* background-color: rgba(221, 235, 248, 0.493); */
     background-color: rgba(255, 255, 255, 0.973);
     box-shadow: 0px 0.5px 2px gray;
-  
+
     /* margin-left: 3%; */
 
   }
@@ -3640,7 +3630,7 @@ Footer area
     margin-bottom: 0 !important;
   }
 
-  .headerbtn > a {
+  .headerbtn>a {
     border: 1px solid;
     /* color: white !important; */
   }
@@ -3653,7 +3643,7 @@ Footer area
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
   }
-  
+
   .link-box .nav-item a:hover {
     color: darkblue !important;
 
@@ -3967,5 +3957,20 @@ button {
   }
 
 
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Muli',
+    sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  line-height: 1.64em !important;
+  letter-spacing: 0em !important;
 
 }
