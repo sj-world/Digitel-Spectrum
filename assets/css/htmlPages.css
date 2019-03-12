@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	border-bottom: 1px solid rgba(63, 63, 63, 0.103);
 	padding-bottom: 75px;
-
+	margin-bottom: 50px !important;
 }
 
 img {
@@ -91,11 +91,17 @@ img {
 @media screen and (max-width: 550px) {
 	
 
+
 	#bandmemberinfo-container img {
 		float: none;
 		/* border: 5px solid !important; */
 		max-width: 500px !important;
 		/* margin: 0 auto !important;  */
+	}
+
+	.dgContainer {
+		margin-bottom: 50% !important;
+		/* border: 3px solid black;	 */
 	}
 }
 
