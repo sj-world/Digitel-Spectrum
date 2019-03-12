@@ -5,6 +5,17 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  /* font-family: Ubuntu, sans-serif !important; */
+  font-family: 'Muli',
+  sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  line-height: 1.64em !important;
+  letter-spacing: 0em !important;
+
+}
+
 .logoHeading {
   font-weight: bold;
 }
