@@ -1069,6 +1069,7 @@ ul {
 .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item:hover {
   background-color: #0054ff;
   color: #fff;
+
 }
 
 .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
@@ -1120,7 +1121,7 @@ ul {
 }
 
 .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #151525;
+  color: #565656 !important;
   font-size: 16px;
   line-height: 22px;
   -webkit-transition: all 0.3s ease-in;
@@ -1129,6 +1130,10 @@ ul {
   transition: all 0.3s ease-in;
   font-family: "Merriweather", serif;
   position: relative;
+}
+
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: darkblue !important;
 }
 
 .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.active {
@@ -1981,7 +1986,7 @@ ul {
   position: relative;
   z-index: 0;
   padding: 112px 0 870px 0;
-  
+
 }
 
 .team-member-area:after {
@@ -2009,7 +2014,7 @@ ul {
   /* background-image: url(../img/bg/team-member-bg.jpg); */
   /* background-size: cover; */
   /* background-position: center; */
-  
+
 }
 
 .team-area-bottom .team-bottom-inner {
@@ -3113,7 +3118,7 @@ Footer area
     About Page
 ----------------------*/
 .about-page-content {
-  padding: 120px 0;
+  padding: 50px 0 100px 0;
 }
 
 .about-page-content .right-content-area {
@@ -3606,13 +3611,14 @@ Footer area
 
 @media screen and (max-width: 992px) {
   .link-box {
-    background-color: #fff;
+    background-color: rgba(221, 235, 248, 0.493);
+    box-shadow: 0px 0.5px 2px gray;
     /* margin-left: 3%; */
 
   }
 
   .link-box .nav-item {
-    background-color: #6290C7;
+    /* background-color: #6290C7; */
     margin: 5px 0;
   }
 
@@ -3621,17 +3627,33 @@ Footer area
   }
 
   .link-box .nav-item:hover {
-    background-color: darkblue;
+    /* background-color: darkblue; */
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-}
+  }
+  
+  .link-box .nav-item a:hover {
+    color: darkblue !important;
+
+  }
+
+  .link-box .nav-item:first-child {
+    /* border: 1px solid; */
+    padding-top: 5px !important;
+  }
+
+  .link-box .nav-item:last-child {
+    /* border: 1px solid; */
+    padding-bottom: 15px !important;
+  }
 
   .link-box .nav-item a {
-    color: white !important;
+    color: black !important;
     font-family: 'Roboto', sans-serif !important;
+    text-transform: uppercase;
   }
 }
 
@@ -3712,35 +3734,45 @@ Footer area
   */
     /* background-color: #4f81bd; */
     /* background-color: darkblue !important; */
-    background-color: #4f80bdd5 !important; 
+    /* background-color: #4f80bdd5 !important;  */
     /* background-color: #131DFF !important; */
     /* background-color: rgb(0, 0, 139) !important; */
 
 
-    font-weight: bolder !important;
-    font-size: 15px !important;
-    font-family: 'Roboto', sans-serif !important;
+    /* font-weight: bolder !important; */
+    /* font-size: 15px !important; */
+    /* font-family: 'Roboto', sans-serif !important; */
     /*border: 1px solid blue !important;
   */
-    padding: 5.5px 10px !important;
+    /* padding: 5.5px 10px !important; */
     /*border: 2px double #181818 !important;
   */
     /* color: darkblue !important; */
-    color: white !important;
-    border-radius: 3px;
+    color: black !important;
+    /* border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    -o-border-radius: 3px; */
     /* border: 1.5px solid rgba(0, 0, 139, 0.158) !important */
+
+    font-family: Ubuntu,
+      sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    color: black !important;
+    line-height: 1.71em !important;
+    letter-spacing: 0em !important;
+    text-transform: uppercase;
   }
 
   .headerbtn:hover {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(0, 0, 139) !important;
+    /* color: rgb(255, 255, 255) !important; */
+    /* background-color: rgb(0, 0, 139) !important; */
     /* background-color: #131DFF !important; */
     /* background-color: #4f81bd !important; */
-    
+
   }
 
 
@@ -3796,7 +3828,8 @@ Footer area
 
 /* Read more and Read less styling */
 
-.content1 , .content2 {
+.content1,
+.content2 {
   display: none;
 }
 
@@ -3881,7 +3914,7 @@ button {
 
 
 @media screen and (max-width: 500px) {
-  .contactLogo > img {
+  .contactLogo>img {
     /* border: 10px solid black !important; */
     justify-self: flex-end;
     display: flex;
@@ -3889,7 +3922,7 @@ button {
   }
 
 
-  .contactLogo > h3 {
+  .contactLogo>h3 {
     /* border: 1px solid; */
     width: 100%;
     text-align: center;
@@ -3897,15 +3930,15 @@ button {
   }
 
   .contactInfo {
-  
+
     /* display: flex; */
     /* flex-direction: column; */
     /* border: 1px solid black !important; */
     margin-top: 20px;
-    
+
   }
 
-  
+
   .contactQr {
     /* border: 2px solid black; */
     float: left;
@@ -3914,5 +3947,5 @@ button {
   }
 
 
-  
+
 }
