@@ -5,10 +5,11 @@ body {
 }
 
 .dgContainer {
-	background-color: rgba(98, 143, 199, 0.103);
+	background-color: rgba(255, 255, 255, 0.103);
 	margin: 0;
-	border: 1px solid rgba(98, 143, 199, 0.103);
-	padding-bottom: 50px;
+	border-bottom: 1px solid rgba(63, 63, 63, 0.103);
+	padding-bottom: 75px;
+
 }
 
 img {
@@ -41,7 +42,7 @@ img {
 	font-size: 10px;
 	margin: 0 auto;
 	/* text-transform: uppercase; */
-	box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.521);
+	box-shadow: 0.5px 0.5px 3.5px rgba(0, 0, 0, 0.521);
 }
 
 #bandmemberinfo-container img {
@@ -52,14 +53,7 @@ img {
 	margin-bottom: 10px;
 }
 
-.dgPara {
-	/* border: 1px solid; */
-	padding-top: 5px;
-	padding-left: 5px;
-	text-align: justify;
-	padding-right: 5px;
-	word-wrap: break-word;
-}
+
 
 .contact-area {
 	
@@ -69,10 +63,33 @@ img {
 
 /* 1. Virtual Attendent styling */
 
+.dgPara {
+	/* border: 1px solid !important; */
+	padding-top: 5px;
+	padding-left: 15px;
+	text-align: justify;
+	padding-right: 15px;
+	word-wrap: break-word;
+	padding-bottom: 0px;
+
+	font-family: "Open Sans",
+	sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #4E4E62;
+	line-height: 1.62em;
+	letter-spacing: 0em;
+}
+
+.dgPara2 {
+	padding-bottom: 15px;
+	/* padding-right: 20px; */
+	/* padding-left: 20px; */
+}
+
 @media screen and (max-width: 550px) {
-	#bandmemberinfo-container {
-		
-	}
+	
 
 	#bandmemberinfo-container img {
 		float: none;
