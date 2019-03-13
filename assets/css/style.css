@@ -6,6 +6,16 @@ html {
 }
 
 
+.styled-button:hover {
+  background-color: rgb(250, 250, 250) !important;
+  color: rgba(31, 31, 31, 0.829) !important;
+  transition: 0s !important;
+  -webkit-transition: 0s !important;
+  -moz-transition: 0s !important;
+  -ms-transition: 0s !important;
+  -o-transition: 0s !important;
+}
+
 .logoHeading {
   font-weight: bold;
 }
