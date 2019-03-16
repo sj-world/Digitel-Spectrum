@@ -1220,7 +1220,7 @@ ul {
 
 .header-area.header-area-bg {
   background-color: #ddd;
-  background-image: url(../img/bg/waterBg.jpg);
+  background-image: url(https://s3.ap-south-1.amazonaws.com/samio-data/digitel+spectrum+images/Compressed-Images/bg/waterBg.webp);
   background-size: cover;
   background-position: center;
 }
