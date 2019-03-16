@@ -867,7 +867,7 @@ html {
 }
 
 .breadcrumb-area.breadcumb-bg {
-  background-image: url(../img/bg/breadcumb-bg.jpg);
+  background-image: url(https://s3.ap-south-1.amazonaws.com/samio-data/digitel+spectrum+images/Compressed-Images/bg/breadcumb-bg.webp);
   background-size: cover;
   background-position: center;
 }
