@@ -7,7 +7,6 @@ $(document).ready(function () {
 
 
 
-
 var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -206,7 +205,7 @@ function cursorAnimation() {
                 autoPlayTimeout: 1000,
                 dots: false,
                 margin:20,
-                nav: false,
+                nav: true,
                 responsive: {
                     0: {
                         items: 1
@@ -425,5 +424,8 @@ $("#Solution-Read-Btn2").click(function () {
     $(window).bind("resize", ScaleSlider);
     $(window).bind("orientationchange", ScaleSlider);
     /*#endregion responsive code end*/
+
+
+
 
 
