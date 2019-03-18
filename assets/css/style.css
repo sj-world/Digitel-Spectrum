@@ -30,6 +30,20 @@ html {
 
 }
 
+/* footer contact info styling */
+.contactInfo {
+
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* border: 1px solid black !important; */
+  margin-top: -80px;
+
+
+}
+
+/* footer contact info styling end */
+
+
 /* Our Solution margin  styling*/
 
 .content {
@@ -3956,6 +3970,7 @@ button {
     /* border: 1px solid black !important; */
     margin-top: 20px;
 
+
   }
 
 
@@ -3984,3 +3999,4 @@ h6 {
   letter-spacing: 0em !important;
 
 }
+
