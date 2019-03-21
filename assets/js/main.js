@@ -426,6 +426,9 @@ $("#Solution-Read-Btn2").click(function () {
     /*#endregion responsive code end*/
 
 
-
+// data tooltip
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
 
 
