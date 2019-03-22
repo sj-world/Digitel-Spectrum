@@ -1706,7 +1706,7 @@ ul {
 }
 
 .pricing-area-start .pricing-table-nav .nav-tabs .nav-item .nav-link.active {
-  background-color: #0054ff;
+  /* background-color: #0054ff; */
   color: #fff;
 }
 
