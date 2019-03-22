@@ -4009,6 +4009,15 @@ button {
     /* margin: 0 0 0 30% !important; */
   }
 
+  .sct-color {
+    font-size: 30px !important;
+
+  }
+
+  .hardware-agllery-area {
+    padding-top: 25px !important;
+  }
+
 
 
 }
@@ -4027,4 +4036,5 @@ h6 {
   letter-spacing: 0em !important;
 
 }
+
 
