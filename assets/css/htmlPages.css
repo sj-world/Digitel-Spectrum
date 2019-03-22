@@ -1,10 +1,12 @@
 body {
 	margin: 0;
 	/* border: 1px solid; */
-	background-color: rgb(255, 255, 255) !important;
+	/* background-color: rgb(255, 255, 255) !important; */
+	background-color: #ade6e313 !important;
 }
 
 .dgContainer {
+
 	background-color: rgba(255, 255, 255, 0.103);
 	margin: 0;
 	border-bottom: 1px solid rgba(63, 63, 63, 0.103);
@@ -74,12 +76,17 @@ img {
 
 	font-family: "Open Sans",
 	sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	font-style: normal;
 	color: #4E4E62;
-	line-height: 1.62em;
+	/* line-height: 1.62em; */
+	line-height: 24px;
 	letter-spacing: 0em;
+	vertical-align: baseline;
+	text-decoration: none solid rgb(34, 34, 34);
+	/* text-align: start; */
+	color: #222222 !important;
 }
 
 .dgPara2 {
