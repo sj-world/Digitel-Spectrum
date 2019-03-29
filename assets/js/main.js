@@ -1,7 +1,7 @@
 // Train effect 
 
 $(document).ready(function () {
-    setInterval('cursorAnimation()', 600);
+    setInterval('cursorAnimation()', 250);
 });
 
 
@@ -30,7 +30,7 @@ TxtRotate.prototype.tick = function () {
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
-    var delta = 300 - Math.random() * 250;
+    var delta = 215 - Math.random() * 250;
 
     if (this.isDeleting) { delta /= 7; }
 
@@ -40,7 +40,7 @@ TxtRotate.prototype.tick = function () {
     } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
-        delta = 500;
+        delta = 400;
     }
 
     setTimeout(function () {
