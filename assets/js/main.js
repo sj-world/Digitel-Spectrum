@@ -328,6 +328,7 @@ $("#Solution-Read-Btn1").click(function () {
     // }
 });
 
+
 $("#Solution-Read-Btn2").click(function () {
     $(".content2").slideToggle("fast");
     var $this = $(this);
@@ -430,5 +431,6 @@ $("#Solution-Read-Btn2").click(function () {
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
+
 
 
