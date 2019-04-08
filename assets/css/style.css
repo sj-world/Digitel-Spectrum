@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+/* temporary changes for team section */
+/* FIXME: you will have to remove this letter */
+
+@media only screen and (min-width: 992px) {
+  .first-team-member {
+    /* first */
+    margin-left: 24%;
+    /* second */
+
+  }
+
+  .second-team-member {
+    margin-left: 37%;
+    /* border: 1px solid black; */
+  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -3664,25 +3680,6 @@ Footer area
 
 
 /* media screen */
-
-/* temporary changes for team section */
-/* FIXME: you will have to remove this letter */
-
-@media only screen and (min-width: 992px) { 
-  .first-team-member {
-    /* first */
-    margin-left: 24%;
-    /* second */
-    
-  }
-
-  .second-team-member {
-    margin-left: 37%;
-    /* border: 1px solid black; */
-  }
-}
-
-
 
 
 @media screen and (max-width: 992px) {
