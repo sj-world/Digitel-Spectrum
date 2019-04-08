@@ -3661,7 +3661,29 @@ Footer area
   color: #0054ff;
 }
 
+
+
 /* media screen */
+
+/* temporary changes for team section */
+/* FIXME: you will have to remove this letter */
+
+@media only screen and (min-width: 992px) { 
+  .first-team-member {
+    /* first */
+    margin-left: 24%;
+    /* second */
+    
+  }
+
+  .second-team-member {
+    margin-left: 37%;
+    /* border: 1px solid black; */
+  }
+}
+
+
+
 
 @media screen and (max-width: 992px) {
   .link-box {
@@ -4038,22 +4060,4 @@ h6 {
   letter-spacing: 0em !important;
 
 }
-
-/* temporary changes for team section */
-/* FIXME: you will have to remove this letter */
-
-@media only screen and (min-width: 992px) { 
-  .first-team-member {
-    /* first */
-    margin-left: 24%;
-    /* second */
-    
-  }
-
-  .second-team-member {
-    margin-left: 37%;
-    /* border: 1px solid black; */
-  }
-}
-
 
