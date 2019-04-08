@@ -4039,4 +4039,21 @@ h6 {
 
 }
 
+/* temporary changes for team section */
+/* FIXME: you will have to remove this letter */
+
+@media screen and (min-width: 992px) { 
+  .first-team-member {
+    /* first */
+    margin-left: 24%;
+    /* second */
+    
+  }
+
+  .second-team-member {
+    margin-left: 37%;
+    /* border: 1px solid black; */
+  }
+}
+
 
