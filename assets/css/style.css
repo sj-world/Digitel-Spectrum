@@ -4056,17 +4056,68 @@ button {
 @media screen and (max-width: 500px) {
   #slider1_container {
     /* border: 2px solid pink; */
-    height: 200px !important;
+    height: 650px !important;
     
   }
 
-  .caseStudiesHeading1 {
-    font-size: 37px !important;  
+  .caseHeading1,
+  .caseHeading2,
+  .caseHeading3 {
+    font-size: 52px !important; 
+    text-align: center;
+    width: 80%; 
   }
 
-  .caseStudiesContent1 {
-    font-size: 30px;
+  .caseContent1 {
+    font-size: 42px;
+    /* text-align: justify; */
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;; 
   }
+
+  .caseContent2 {
+    font-size: 42px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .caseContent3 {
+    font-size: 42px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: 1px solid white; */
+    padding-bottom: 30px;
+  }
+
+  .caseContent4 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .uList {
+      display: flex;
+      margin-left: 40px !important;
+      color: white;
+      /* border: 1px solid white; */
+      align-items: center;
+      font-size: 40px;
+    padding-bottom: 30px;
+    }
+
+    .caseContent2Bottom,
+    .caseContent4Bottom,
+    .caseContent2Bottom {
+      /* border: 1px solid white; */
+      padding-bottom: 30px;
+    }
+  
+
+  
 
   .caseStudiesHeading2 {}
 
