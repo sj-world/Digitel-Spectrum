@@ -163,7 +163,9 @@ img {
 
 @media screen and (max-width: 550px) {
 
-
+	#bandmemberinfo-container {
+		width: 88%;
+	}
 
 	#bandmemberinfo-container img {
 		float: none;
