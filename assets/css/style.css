@@ -3778,7 +3778,7 @@ Footer area
     /* border: 1px solid white; */
     font-size: 6vw;
     text-align: center;
-    
+
   }
 
   .train_effect {
@@ -3981,20 +3981,132 @@ button {
 
 /* media query for mobile */
 
-@media screen and (max-width: 500px) {
+/* Case study media screen */
+
+@media screen and (min-width: 501px) {
+
   #slider1_container {
-    /* border: 10px solid white; */
-    height: 190px !important;
+    
+    height: 650px !important;
   }
 
-  .caseStudiesContent {
+  .caseStudiesHeading1 {}
+
+  .caseStudiesContent1 {}
+
+  .caseStudiesHeading2 {}
+
+  .caseStudiesContent2 {}
+
+
+  .caseStudiesHeading3 {}
+
+  .caseStudiesContent3 {}
+
+  
+
+  .caseContent1,
+  .caseContent2,
+  .caseContent3,
+  .caseContent4 {
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  .caseContent1 {
     /* border: 1px solid white; */
-    font-size: 35px !important;
-
+    margin-top: 10px;
   }
+
+  .caseContent2 {
+    margin-top: 7px;
+    margin-bottom: 20px;
+  }
+
+  .caseContent3 {
+    margin-top: 10px;
+  }
+
+  .caseContent4 {
+    /* border: 1px solid white; */
+    margin-top: 20px;
+  }
+
+  /* list */
+
+  .uList {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+    /* border: 1px solid white; */
+    align-items: center;
+  }
+
+  .uList:first-child {
+    margin-top: 10px;
+  }
+
+
+
 
 }
 
+@media screen and (max-width: 500px) {
+  #slider1_container {
+    /* border: 2px solid pink; */
+    height: 200px !important;
+    
+  }
+
+  .caseStudiesHeading1 {
+    font-size: 37px !important;  
+  }
+
+  .caseStudiesContent1 {
+    font-size: 30px;
+  }
+
+  .caseStudiesHeading2 {}
+
+  .caseStudiesContent2 {}
+
+
+  .caseStudiesHeading3 {}
+
+  .caseStudiesContent3 {}
+
+  .arrowLeftSide,
+  .arrowRightSide {
+    display: none;
+  }
+
+  .caseContent1,
+  .caseContent2,
+  .caseContent3,
+  .caseContent4 {
+    /* padding-left: 5.5%; */
+    /* padding-right: 5.5%; */
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  .caseContent2 {
+    margin-top: 0px;
+  }
+
+  /* list */
+
+  .uList {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+    /* border: 1px solid white; */
+    align-items: center;
+  }
+
+}
 
 @media screen and (max-width: 500px) {
   .contactLogo>img {
@@ -4057,4 +4169,3 @@ h6 {
   letter-spacing: 0em !important;
 
 }
-

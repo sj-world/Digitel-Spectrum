@@ -5,6 +5,7 @@ body {
 	background-color: #ade6e311 !important;
 }
 
+
 .dgContainer {
 
 	background-color: rgba(255, 255, 255, 0.103);
@@ -18,7 +19,7 @@ img {
 	/* float: left; */
 	height: auto;
 	/* max-width: 100%; */
-	
+
 }
 
 .dgContainer h1 {
@@ -26,7 +27,7 @@ img {
 	font-size: 2.5em;
 	margin-top: 20px;
 	margin-bottom: 50px;
-	
+
 }
 
 
@@ -58,7 +59,7 @@ img {
 
 
 .contact-area {
-	
+
 	margin-top: 40% !important;
 }
 
@@ -75,7 +76,7 @@ img {
 	padding-bottom: 0px;
 
 	font-family: "Open Sans",
-	sans-serif;
+		sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	font-style: normal;
@@ -95,8 +96,73 @@ img {
 	/* padding-left: 20px; */
 }
 
+/* backBtn styling */
+.bckBtnBox {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.styled-btn {
+	border: 1px solid rgb(177, 177, 177);
+	padding: 5px !important;
+	background: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.5s all ease-in-out;
+	color: #4a4949;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	box-shadow: 0px 0px 1px gray;
+
+
+
+}
+
+.styled-btn:focus {
+	outline: none;
+}
+
+.styled-btn:hover {
+	background-color: rgba(208, 208, 208, 0.17);
+	transition: 0.3s all ease-in-out;
+	box-shadow: 0px 0px 1px black;
+	color: #362f2f;
+	border: 1px solid rgb(142, 142, 142);
+
+}
+
+.styled-btn span:after {
+	content: '\21E6';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0px;
+	transition: 0.3s;
+}
+
+.styled-btn:hover span {
+	padding-left: 12px;
+}
+
+.styled-btn:hover span:after {
+	opacity: 1;
+	left: 0;
+}
+
+.styled-btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.4s;
+}
+
+/* backBtn styling end */
+
 @media screen and (max-width: 550px) {
-	
+
 
 
 	#bandmemberinfo-container img {
@@ -118,7 +184,7 @@ img {
 
 @media screen and (max-width: 700px) {
 	.contact-area {
-	
+
 		margin-top: 40% !important;
 	}
 
@@ -130,7 +196,5 @@ img {
 		flex-direction: column;
 	}
 
-	
+
 }
-
-
