@@ -595,7 +595,8 @@ html {
 .section-title h2 {
   font-size: 50px;
   line-height: 60px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
+  
 }
 
 .section-title p {
@@ -4013,6 +4014,11 @@ button {
     padding-right: 5.5%;
     color: white;
     margin-bottom: 0px;
+    /* color: hsl(240, 11%, 35%); */
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+    word-spacing: 2.2px;
+    letter-spacing: 0.1px;
   }
 
   .caseContent1 {
@@ -4042,6 +4048,11 @@ button {
     color: white;
     /* border: 1px solid white; */
     align-items: center;
+    font-family: "Open Sans",
+    sans-serif;
+    line-height: 26px;
+    word-spacing: 2.2px;
+    letter-spacing: 0.1px;
   }
 
   .uList:first-child {
